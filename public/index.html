@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./upload/logo.png" type="image/png">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div id="form-wrapper">
+        <h2><span>South engenharia</span></h2>
+        <form id="formulario" action="/enviado" method="POST">
+            <input type="email" name="email" placeholder="email" id="email"><br>
+            <input type="text" name="nome" placeholder="nome" id="nome"><br>
+            <input type="tel" name="telefone" placeholder="(xx)xxxxx-xxxx " id="telefone"><br>
+            <input type="text" name="meconheceu" placeholder="como me conheceu?" id="meconheceu"><br>
+            <input type="submit" value="Enviar" id="botaoform">
+        </form>
+    </div>
+ 
+    <div id="aviso"> 
+       <p>Em até 24 horas entraramos em contato</p>
+    </div>
+
+    <div id="emailinvalido">
+        <p>email invalido</p>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

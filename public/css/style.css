@@ -1,0 +1,46 @@
+/* Importe a fonte Roboto */
+@import '@fontsource/roboto';
+
+body{
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    font-family: 'roboto', sans-serif;
+    margin: 0 auto;
+}
+h2{
+    color: rgb(37, 37, 37);
+}
+form{
+    height: 100%;
+}
+form input{
+    width: 90%;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid silver;
+    outline: none;
+}
+
+#botaoform{
+    background-color: rgb(13, 89, 175);
+    width: 90%;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+h2 span{
+    color: rgb(13, 89, 175);
+} 
+
+#aviso p{
+    color: rgb(54, 54, 54);
+}
+
+#emailinvalido{
+    color: rgb(173, 173, 173);
+    display: none;
+}
+
